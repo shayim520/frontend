@@ -43,7 +43,7 @@ const name12 = "John";
 name12 = "somthing else";
 
 //Arithmetic Operators +-/%
-//++==
+//++==   
 
 //Assignments Operators
 //= += -+= /= %=
