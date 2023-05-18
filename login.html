@@ -5,21 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-</head>
-<body>
-
-    <!-- you can generate this using `div.container`
-    or `.container` and hit tab -->
-   
-
-    <div class="container">
-        <h2>Login</h2>
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
-        <input type="submit" value="Login">
-
-    </div>
-
     <style>
         body {
             background-color: #f2f2f2;
@@ -65,6 +50,20 @@
           }
 
     </style>
-    
+  </head>
+  <body>
+  
+      <!-- you can generate this using `div.container`
+      or `.container` and hit tab -->
+     
+  
+      <div class="container">
+          <h2>Login</h2>
+          <input id="username" type="text" placeholder="username" />
+          <input id="password" type="password" placeholder="password" />
+          <input type="submit" value="Login" onclick="login()" />
+      </div>
+
+      <script src="script.js"></script>
 </body>
 </html>
