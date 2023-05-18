@@ -13,9 +13,14 @@ let person1 = {
     firstName: "Elnara",
     lastName: "H",
     age: 18,
+    company: {
+        companyName: "Apple",
+        location: "California"
+    }
 }
 
 console.log(person1);
 console.log(person1.firstName);
 console.log(person1.lastName);
 console.log(person1.age);
+console.log(person1.company.companyName);
