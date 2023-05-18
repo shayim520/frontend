@@ -15,4 +15,7 @@ let person1 = {
     age: 18,
 }
 
-console.log(object);
+console.log(person1);
+console.log(person1.firstName);
+console.log(person1.lastName);
+console.log(person1.age);
