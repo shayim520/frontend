@@ -26,7 +26,7 @@ if (num2 > 150) {
     console.log('ok number');
 }
 
-let season = 'Fall';
+let season = 'Spring';
 
 switch (season) {
     case 'Spring':
