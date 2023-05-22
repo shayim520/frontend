@@ -10,7 +10,7 @@ sayHelloTo("Shay");
 
 console.log(addNumbers(52,96));
 
-console.log(chalk.blue("Hello world"));
+console.log(chalk.red("Hello world"));
 
 
 const p1 = new Person("Dua", "D");
