@@ -1,8 +1,9 @@
 
 const p1 ={
     firstName: "Elife",
-    lastName: "k",
-    gender: "Female"
+    lastName: "K",
+    gender: "Female",
+    age: 18
 }
 
 // console.log(p1.firstName);
@@ -27,3 +28,10 @@ function printPerson ({firstName, lastName}){
 }
 
 printPerson( p1);
+let p2 = {
+    firstName: "Ali",
+    lastName: "S",
+    age: 18
+}
+
+printPerson(p2)
