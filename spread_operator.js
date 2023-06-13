@@ -37,6 +37,6 @@ console.log(person);
 //const personCopy = {...person , age:18 } 
 
 // get a copy of person and update the value of lastName
-const personCopy = {...person , lastName:'Wick'};
+const personCopy = {...person , lastName:'Wick'}
 
 console.log(personCopy);
